@@ -1,4 +1,4 @@
-# Set Up for EC2 instance with NGINX web server running in a Docker container. 
+# Set Up for EC2 instance with NGINX web server running in a Docker container using terraform 
 
 ## Overview:
 Configuration in this directory will provision a t2.micro EC2 instance, VPC, Subnet, Internet gateway, custom route table, security group, network interface and AWS elastic IP.  Inside the EC2 instance, the script will install Ubuntu 18.04, Docker CE and python modules required for the REST API. Also it will create an NGINX  Docker container. Variables are declared in the variables.tf file and variables are defined in the dev.tfvars file.
